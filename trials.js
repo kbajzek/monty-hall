@@ -120,7 +120,7 @@ function runSimulation() {
         }
     }
 
-    console.log(`Result: correctly guessed ${Math.round(successfulSwitchRuns/10000*100)}% of simulations.\n\n`)
+    console.log(`Result: correctly guessed ${Math.round(successfulSwitchRuns/10000*100)}% of simulations (${successfulSwitchRuns}/10,000).\n\n`)
 
     console.log('Running 10,000 simulations of not switching door choice...\n')
 
@@ -130,7 +130,7 @@ function runSimulation() {
         }
     }
 
-    console.log(`Result: correctly guessed ${Math.round(successfulNoSwitchRuns/10000*100)}% of simulations.\n\n`)
+    console.log(`Result: correctly guessed ${Math.round(successfulNoSwitchRuns/10000*100)}% of simulations (${successfulNoSwitchRuns}/10,000).\n\n`)
 
 }
 
